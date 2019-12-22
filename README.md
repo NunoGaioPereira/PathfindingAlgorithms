@@ -26,3 +26,29 @@ to:
 ```
 neighbours = [(0,1),(0,-1),(1,0),(-1,0),(1,1),(1,-1),(-1,1),(-1,-1)]
 ```
+
+
+### Backtracking maze solver - C++
+(backtracking_maze.cpp)
+
+Implementation of a backtracking algorithm to find a path from a given starting point
+to a goal position in a maze.
+
+The maze will look like (for example):
+
+	1 1 0 1 
+	1 0 1 0 
+	1 1 1 0 
+	0 0 1 1
+
+where 1's are walkable and 0's are walls.
+
+In this implementation the mouse is only allowed to go down and right.
+
+The solution found would be:
+	1 0 0 0 
+	1 0 0 0 
+	1 1 1 0 
+	0 0 1 1 
+
+where 1's represent the path.
