@@ -46,6 +46,7 @@ where 1's are walkable and 0's are walls.
 In this implementation the mouse is only allowed to go down and right.
 
 The solution found would be:
+
 	1 0 0 0 
 	1 0 0 0 
 	1 1 1 0 
