@@ -74,6 +74,7 @@ The algorithms takes the source node and a matrix which holds the weight between
       0, 0, 2, 0, 0, 0, 6, 7, 0
 
 and outputs the shortest distance of each node to the given source:
+```
 	A                0
 	B                4
 	C                12
@@ -83,3 +84,4 @@ and outputs the shortest distance of each node to the given source:
 	G                9
 	H                8
 	I                14
+```
