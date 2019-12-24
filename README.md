@@ -28,6 +28,7 @@ neighbours = [(0,1),(0,-1),(1,0),(-1,0),(1,1),(1,-1),(-1,1),(-1,-1)]
 ```
 
 
+
 ### Backtracking maze solver - C++
 (backtracking_maze.cpp)
 
@@ -53,3 +54,32 @@ The solution found would be:
 	0 0 1 1 
 
 where 1's represent the path.
+
+
+
+### Dijkstra's Shortest Path Algorithm - C++
+(dijsktra1.cpp)
+
+This is a greedy algorithm that will find the shortets path from every node in a graph to a source node.
+The algorithms takes the source node and a matrix which holds the weight between each node:
+
+	  0, 4, 0, 0, 0, 0, 0, 8, 0
+      4, 0, 8, 0, 0, 0, 0, 9, 0
+      0, 8, 0, 7, 0, 4, 0, 0, 2
+      0, 0, 7, 0, 9, 14, 0, 0, 0
+      0, 0, 0, 9, 0, 10, 0, 0, 0
+      0, 0, 4, 14, 10, 0, 2, 0, 0
+      0, 0, 0, 0, 0, 2, 0, 1, 6
+      8, 9, 0, 0, 0, 0, 1, 0, 7
+      0, 0, 2, 0, 0, 0, 6, 7, 0
+
+and outputs the shortest distance of each node to the given source:
+	A                0
+	B                4
+	C                12
+	D                19
+	E                21
+	F                11
+	G                9
+	H                8
+	I                14
